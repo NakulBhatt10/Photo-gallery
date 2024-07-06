@@ -1,0 +1,37 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="../css/window.css" />
+    <script src="../js/window.js"></script>
+  </head>
+  <body>
+    <div id="image">
+      Hover on the images below to get them display here.....
+    </div>
+
+    <img
+      class="preview"
+      alt="Dog"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+    />
+
+    <img
+      class="preview"
+      alt="dog with a boy"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+    />
+
+    <img
+      class="preview"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg"
+      alt=" young dog"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+    />
+  </body>
+</html>
